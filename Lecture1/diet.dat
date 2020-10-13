@@ -1,0 +1,22 @@
+data;
+set NUTR := Sugar Fat Proteins Calories;
+set FOOD := Bread Milk Cheese Yogurt;
+
+param:   cost:=
+  Bread  1.0
+  Milk   2.5
+  Cheese 3.0
+  Yogurt 4.0;
+
+param:      min_req:=
+  Sugar     10
+  Fat       6
+  Proteins  30
+  Calories  300;
+
+param amt (tr):
+           Sugar    Fat   Proteins   Calories :=
+   Bread   0.5      0     4.0        90
+   Milk    1        5     11.7       120
+   Cheese  0.2      9     10         106
+   Yogurt  4        7     17         110;

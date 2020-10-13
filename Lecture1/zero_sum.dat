@@ -1,0 +1,11 @@
+data;
+
+set BETH := B1 B2 B3 B4;
+set ANN := A1 A2 A3 A4;
+
+param reward (tr):
+        B1  B2  B3  B4 :=
+    A1  3   1   5   6
+    A2  2   4   4   3   
+    A3  6   1   2   4
+    A4  2   0   9   1;
