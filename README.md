@@ -6,3 +6,5 @@ To run the models edit the **env_path.py** file with path to your installation o
 You also need the conda environment from **environment.yml** file installed.
 
 Run the python scripts from the main directory.
+
+Each folder contains the task as well as program output images for easier checking.
