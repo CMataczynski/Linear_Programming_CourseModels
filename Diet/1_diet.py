@@ -3,8 +3,8 @@ import os
 
 ampl = AMPL(Environment('C:\\Users\\cmata\\Desktop\\Linear Programming\\ampl.mswin64'))
 
-ampl.read(os.path.join(os.getcwd(),'Lecture1', 'diet.mod'))
-ampl.readData(os.path.join(os.getcwd(),'Lecture1', 'diet.dat'))
+ampl.read(os.path.join(os.getcwd(),'Diet', 'diet.mod'))
+ampl.readData(os.path.join(os.getcwd(),'Diet', 'diet.dat'))
 
 ampl.solve()
 totalcost = ampl.getObjective('Total_cost')
