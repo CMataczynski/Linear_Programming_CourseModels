@@ -2,7 +2,7 @@ set INVESTEMENTS;
 param G1;
 param p;
 param K;
-param bounds{1..K-1};
+param bounds{1..K};
 param Q {1..K, INVESTEMENTS};
 
 var x {INVESTEMENTS} >= 0, <= G1;
