@@ -1,0 +1,1 @@
+ENV_PATH = 'C:\\Users\\cmata\\Desktop\\Linear Programming\\ampl.mswin64'
